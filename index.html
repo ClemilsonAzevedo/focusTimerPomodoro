@@ -12,7 +12,7 @@
 <body>
   <main id="app">
     <button id="toggle-mode">
-      <!-- <span>Enable / Disable Light mode </span> -->
+      <span class="sr-only">Enable / Disable Light mode </span>
       <i class="ph-bold ph-sun"></i>
       <i class="ph-bold ph-moon"></i>
     </button>
@@ -24,12 +24,24 @@
     </section>
 
     <section id="controls" class="flex">
-      <button class="ph ph-play-circle"></button>
-      <button class="ph ph-pause-circle"></button>
-      <button class="ph ph-timer secundary"></button>
-      <button class="ph ph-stop-circle secundary"></button>
-      <button class="ph ph-speaker-none secundary"></button>
-      <button class="ph ph-speaker-high"></button>
+      <button class="ph ph-play-circle">
+        <span class="sr-only">play counter</span>
+      </button>
+      <button class="ph ph-pause-circle">
+        <span class="sr-only">pause counter</span>
+      </button>
+      <button class="ph ph-timer secundary">
+        <span class="sr-only">adjust timer</span>
+      </button>
+      <button class="ph ph-stop-circle secundary">
+        <span class="sr-only">reset counter</span>
+      </button>
+      <button class="ph ph-speaker-none secundary">
+        <span class="sr-only">play music</span>
+      </button>
+      <button class="ph ph-speaker-high">
+        <span class="sr-only">stop music</span>
+      </button>
     </section>
   </main>
 </body>

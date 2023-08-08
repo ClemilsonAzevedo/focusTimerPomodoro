@@ -11,7 +11,7 @@
   --text-color:hsla(var(--hue), 40%, 98%, 1);
   --primary-color:hsla(var(--hue), 100%, 63%, 1);
   --controls-bg-color:hsla(var(--hue), 0%, 14%, 1);
-  --button-secundary:hsla(var(--hue), 40%, 98%, 1);
+  --button-secondary:hsla(var(--hue), 40%, 98%, 1);
 }
 
 html.light{
@@ -39,7 +39,7 @@ html:not(.light) .ph-moon{
 
 .sr-only{
   width: 1px;
-  height: 1;
+  height: 1px;
   position: absolute;
   overflow: hidden;
 
@@ -90,8 +90,8 @@ button{
   font-size: 6.4rem;
 }
 
-.secundary{
-  color: var(--button-secundary);
+.secondary{
+  color: var(--button-secondary);
 }
 
 /* Controls */

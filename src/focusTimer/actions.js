@@ -14,6 +14,7 @@ export function set(){
 export function reset() {
   state.isRunning = false
   document.documentElement.classList.remove('running')
+  timer.updateDisplay()
 }
 
 export function toggleMusic(){

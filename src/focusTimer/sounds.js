@@ -4,4 +4,4 @@ export const kitchenTimer = new Audio('./assets/kichen-timer.mp3')
 
 export const bgAudio = new Audio('./assets/bg-audio.mp3')
 
-bgAudio.loop() = true
+bgAudio.loop = true
